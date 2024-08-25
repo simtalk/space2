@@ -1,0 +1,355 @@
+@charset "utf-8";
+ 
+
+@media (min-width:1601px){html{font-size:16px;}}
+@media (min-width:1400px) and (max-width:1600px){html{font-size:14px;}}
+@media (min-width:640px) and (max-width:1399px){html{font-size:13px;}}
+@media (min-width:481px) and (max-width:639px){html{font-size:13px;}}
+@media (min-width:329px) and (max-width:480px){html{font-size:13px;}}
+
+
+@media (min-width: 768px)
+{
+}
+
+@media (min-width: 992px)
+{
+}
+
+@media (min-width: 1200px)
+{
+}
+
+@media (min-width: 1280px)
+{
+
+}
+
+@media (min-width: 1440px)
+{
+ 	
+}
+
+@media (min-width: 1660px)
+{
+ 
+}
+@media (min-width: 1921px)
+{
+ .bannerpage .m{ max-width: 100% !important;}
+ .bannerpage .fenshi{ left: 9rem;}
+}
+@media screen and (min-width:1200px) and (max-width:1440px)
+{
+
+}
+
+@media (max-width: 1660px)
+{
+}
+
+@media (max-width: 1600px)
+{
+
+}
+.web{}
+.wap{ display:none;}
+@media (max-width: 1440px)
+{
+    .bannerpage .fenshi .dayuan{ width: 6rem; height: 6rem;}
+    .s_pro .pic{ height: 100%; }
+    .s_pro .pic img{ max-height: 37.5rem; max-width: 100%; object-fit: contain;}
+    .s_about .tt{ font-size: 3.25rem;}
+    .s_coop li{ width: 11.25rem; height: 11.25rem; margin: 1rem;}
+    .buju_add{ gap: 4rem;}
+    .map_buju{ width: 715px;}
+    .n_ys{ background-size: cover !important;}
+    .xilie_banner{ height: 33rem;}
+    .xilie_banner h3{ font-size: 3.5rem; margin-bottom: 2rem;}
+    .xilie_banner p{ font-size:1.625rem;} 
+    .n_fadongjixilie .pic{ height: 40rem;}
+    .n_rukou ul li a{ font-size: 1.625rem;}
+    .n_rukou ul li a svg{ width: 64px;}
+    .n_rukou ul li:nth-child(2) a svg{ width: 54px;}
+    .n_rukou ul li a{ height: 10rem;}
+    .s_about{ margin-top: -14rem;}
+    .s_coop{ height: 62rem;}
+}
+
+@media (max-width: 1360px)
+{
+    .map_buju{width: 600px; }
+}
+
+@media (max-width: 1280px)
+{
+    .n_wenhua .centerbox{ width: 30rem;}
+    .n_ys .img{ width: 24rem !important;}
+    .n_ys .imgbox i{ font-size: 13rem; top:-3rem;}
+}
+
+@media (max-width: 1200px)
+{
+#nav{ margin-right:1.5rem;}
+#header{ display:none;}
+#m_header{ display:block; }
+#nav_btn_box{ display: block;}
+.n_title{ display:none}
+#m_n_nav{ display:block}
+.web{ display:none;}
+.wap{ display:block;}
+span.wap{ display: inline;}
+.online_q{ display:none;}
+ /* body{ padding-top: 4.5rem;} */
+ /* #banner .swiper{ height: calc(100vh - 4.5rem);} */
+ .s_about .tt{ font-size: 3rem;}
+ .n_xuanchuan .bd ul li:nth-child(even) { margin-top: -11.3125rem;}
+ .headerbox{ display: none; }
+}
+
+@media (max-width: 1100px)
+{
+ 
+}
+
+/*==========================导航和banner变成手机模式============================*/
+
+@media (max-width: 992px)
+{
+    .n_case ul{ grid-template-columns: 1fr 1fr;}
+}
+
+@media (min-width:481px) and (max-width:992px)
+{ 
+
+}
+
+@media (max-width: 860px)
+{
+ 
+}
+
+@media (max-width: 768px)
+{
+.pad_top{ padding-top:5rem !important;}
+.pad_bot{ padding-bottom:5rem !important;}
+.xs_jianju{ margin-left:-5px !important; margin-right: -5px !important;}
+.xs_jianju li{ padding-left:5px !important; padding-right:5px !important;}
+.m{ padding: 0 50px;}
+.bannerpage .fenshi{ margin-left: 100px;}
+#banner .txt{ padding-left: 30px;}
+.s_pro .bg .m{grid-auto-rows: 35rem;}
+.s_about .tt{ font-size: 2.75rem;}
+.s_about .m{ grid-template-columns: 1fr; gap: 3rem;}
+.s_about .outbox{ height: auto; background-size: cover !important; padding-bottom: 13rem;}
+.s_buju .bd{ grid-template-columns: 1fr;}
+.s_news .bd{ grid-template-columns: 1fr;}
+.s_news .left .img{ height: auto;}
+.foot_nav{ display: none;}
+#foot .box2{ flex-direction: column; gap: 1rem;}
+#foot .box1 .left{ width: 100%; justify-content: space-between;}
+.n_news ul li a .txt{ padding: 2rem 1.5rem;}
+.n_fadongji .bd ul{ grid-template-columns: repeat(2,1fr);}
+.n_news_xq{ flex-direction: column;}
+.n_news_xq .left_con{ padding-right: 0;}
+.n_news_xq .right_con{ width: 100%; margin-top: 2rem;}
+.n_team ul li .box div span{ font-size: 4rem;}
+.n_team ul{ gap: 1rem;}
+#n_zhuanli{ height: 30rem;}
+.n_ys .txt{ padding: 0;}
+.n_ys .txt h3{ font-size: 2.25rem;}
+.n_ys .txt h6{ font-size: 1.5rem;}
+.n_ys .img{ width: 18rem !important;}
+.n_ys .imgbox i{ font-size: 9rem; top: -2rem; left: -5.5rem;}
+.n_ys{ height: 51rem;}
+.n_wenhua{ padding-top: 1rem !important;}
+.n_wenhua .centerbox{ width: 20rem;}
+.n_wenhua .centerbox ul li .ico{ width: 4rem; height: 4rem;}
+.n_wenhua .centerbox ul li .ico svg{ width: 2.5rem; height: 2.5rem;}
+.n_wenhua .centerbox ul li h4{ font-size: 1.5rem;}
+.n_wenhua .centerbox ul li p{ font-size: 1rem;}
+.n_wenhua .centerbox ul li{ width: 18rem;}
+.arrstyle .bd { padding-bottom: 4rem;}
+.arrstyle .bd div.arr{ transform: none; width: 3rem; height: 3rem;}
+.arrstyle .bd div.arr svg{ width: 1rem; height: 1rem;}
+.arrstyle .bd .arr_left { left: 50%;margin-left: -3.5rem;bottom: 0;top: auto !important;}
+.arrstyle .bd .arr_right {right: 50%;margin-right: -3.5rem;bottom: 0;top: auto !important;}
+}
+
+@media (max-width: 480px)
+{
+.pad_top{ padding-top:4rem !important;}
+.pad_bot{ padding-bottom:4rem !important;}
+.pad_top2{ padding-top:3rem !important;}
+.pad_bot2{ padding-bottom:3rem !important;}
+.m{ padding: 0 15px;}
+.n_banner{ height: 14rem; padding-top: 3rem;}
+.n_banner h3{ margin-bottom: 1rem; font-size: 1.875rem;}
+#banner .txt h4{ font-size: 1.875rem;}
+#banner .txt h3{ font-size: 2.5rem; margin: 1rem 0 2.5rem;}
+#banner .txt span{ font-size: 1.5rem;}
+.s_pro.pad_top{ padding-top: 5rem !important;}
+.btn_style01 {width: 102.5px; height: 36.5px;}
+.s_pro .txt h3{ font-size: 2rem;}
+.s_about .tt{ font-size: 2.25rem; line-height: 3rem;}
+.s_about .diqiu { margin-left: 10%; margin-top: -1rem; width: 13rem;}
+.map_buju .circle:before{ width: 4px; height: 4px; margin-left: -2px; margin-top: -2px;}
+.map_buju .circle:after{ width: 14px; height: 14px; margin-left: -7px; margin-top: -7px;}
+.s_buju .tt h3{ font-size: 1.375rem;}
+.s_buju .tt h4{ font-size: 2.5rem; margin: 1.25rem 0 3rem;}
+
+.s_pro .right{ margin: 0 -4rem;}
+.s_pro .item{ grid-template-columns: .7fr 1fr;}
+.s_pro .bg .m { grid-auto-rows: 24rem; gap: 8rem 3rem; padding-top: 5rem;}
+.s_buju{ margin-top: -8rem; height: 62rem;}
+.s_tt h3{ font-size: 1.25rem; margin-bottom: 1rem;}
+.s_tt h4{ font-size: 1.625rem;}
+.s_coop li{ width: 9rem; height: 9rem; margin: .5rem;}
+.s_coop{ height: 48rem; padding-top: 12rem;}
+.foot_lianxi .hd ul{ gap: 2rem;}
+#foot .box1 .left{ flex-direction: column;flex-grow: 1; gap: 1.5rem;}
+#foot .box2{ flex-direction: column; margin-top: 1rem;}
+#foot .box2 .left{ flex-direction: column;flex-grow: 1; gap: .5rem;}
+.foot_logo{ display: none;}
+.foot_ewm{ margin: 0 auto;}
+.copyright{ text-align: center;}
+.foot_share{ justify-content: center;}
+.foot_link{ width: 100%; margin-top: 1rem; position: relative; z-index: 9;}
+.playbtn .ico{ width: 4rem; height: 4rem;}
+.s_news .right ul li .txt h5{ font-size: 1.125rem;}
+.s_about{ margin-top: -10rem;}
+.s_about .outbox{ padding-top: 14rem;}
+.bannerpage .fenshi{ margin-left: 72px;}
+.s_coop .img_db .pic{ padding: 0;}
+.playbtn p{ font-size: 1.25rem;}
+.n_buju .tt h3{ font-size: 1.375rem;}
+.n_buju .tt h4{ font-size: 2rem; margin: 1rem 0 3rem;}
+.yueqiu2{ width: 7.75rem;}
+.buju_add{ grid-template-columns: 1fr; gap: 2rem;}
+.map_buju{ width: 100%;}
+.map_buju .circle{ transform: scale(.5);}
+.map_buju ul li p{ margin-top: .75rem;}
+.buju_add dl dt{ font-size: 1.125rem;}
+.buju_add dl dd{ font-size: .875rem;}
+.n_leader .box1 .txt{ display: flex; justify-content: space-between; align-items: center; width: 100%; margin-bottom: 3rem;}
+.n_leader .box1 .txt h3{ font-size: 2rem;}
+.n_leader .box1 .txt h4{ font-size: 1.125rem; line-height: 2rem;}
+.n_leader .box1 .txt .star{ width: 110px; height: 110px; margin-top: 0;}
+.n_leader .box1 .txt .star img{ width: 80px;}
+.n_leader .box1{ flex-direction: column; align-items: flex-start;}
+.n_leader .box1 .img{ max-width: 80%; margin: 0 auto;}
+.n_leader .box2{ margin-top: 3rem;}
+.n_news ul{ grid-template-columns: 1fr; gap: 1.5rem;}
+.btn_loadmore{ margin-top: 2.5rem;}
+.btn_loadmore .btn_style01 { width: 122px;height: 44px;}
+.n_case ul{ grid-template-columns: 1fr;}
+.tc_case{ padding: 3rem 2rem;}
+.tc_case .box{ flex-direction: column;}
+.tc_case{ max-width: 100%; height: 100vh; overflow: auto;}
+.n_subnav a{ width: 8rem; height: 3.25rem;}
+.n_hd .yueqiu3{ display: none;}
+.n_subnav{ gap: 1rem; justify-content: center;}
+.n_fadongji .bd ul{ grid-template-columns: 1fr;}
+.n_hd{ margin-bottom: 2rem;}
+.n_news_xq{ padding: 2.5rem 2rem !important;}
+.n_xq_banner h3{ font-size: 2rem; margin: 1rem 0 1.5rem;}
+.n_xq_banner{ height: 30rem; padding-bottom: 3rem;}
+.n_news_xq{ margin-top: -5.5rem;}
+.n_team ul{ flex-wrap: wrap; justify-content: center;}
+.n_team ul li{ width: 30%; }
+.n_team ul li .box p{ font-size: 1rem; margin-top: 3px;}
+.n_team ul li .box div span{ font-size: 3rem;}
+.n_team .con span{ font-size: 3rem;}
+.team_earth{ margin-top: 2rem;}
+.team_earth img{ max-width: 70%;}
+.n_xuanchuan .bd ul li:nth-child(even) { margin-top: 0;}
+.n_xuanchuan .n_hd{ position: static;}
+.n_xuanchuan .bd ul{ grid-template-columns: 1fr; gap: 1rem; padding-top: 0;}
+.n_xuanchuan .bd ul li .txt{ padding: 2rem;}
+.n_jieshao{ padding-bottom: 0 !important;}
+.n_jieshao .box1 .tt h3{ font-size: 1.875rem;}
+.n_jieshao .box1 .tt span{ font-size: 2.5rem;}
+.n_jieshao .box1 .pic{ max-width: 90%;}
+.n_jieshao .box1 .tt{ top: 53%;}
+.n_ys .box{ flex-direction: column; align-items: flex-end;}
+.n_ys{ height: 65rem;}
+.n_ys .txt h3{ font-size: 2.25rem; line-height: 1.3; margin-bottom: 2rem;}
+.n_wenhua{ padding-top: 0 !important;}
+.n_wenhua .centerbox{ width: 100%;}
+.n_wenhua .centerbox ul li{ flex-direction: row !important; position: static; text-align: left !important; margin-top: 2rem; width: 100% !important;}
+.wenhua_diqiu{ display: none !important;}
+.n_jieshao .con{ margin-top: 2rem;}
+.n_fadongjixilie .bd{ display: flex; flex-direction: column-reverse; align-items: center;}
+.n_fadongjixilie .txt{ width: 100%;}
+.n_fadongjixilie .pic{ max-width: 70%; max-height: 25rem; margin-bottom: 2rem;}
+.xl_tt h3{ font-size: 2rem; margin-bottom: 1rem;}
+.xl_tt p{ line-height: 1.5;}
+.fadongji_xiangguan .tt h3{ font-size: 1.25rem;}
+.fadongji_xiangguan .tt p{ font-size: 2rem;}
+.fadongji_xiangguan .box .txt h4{ font-size: 1.125rem;}
+.n_rukou ul li a{ font-size: 1.375rem;}
+.n_rukou ul li a svg{ width:44px;}
+.n_rukou ul li:nth-child(2) a svg{ width: 36px;}
+.n_rukou ul li a{ height: 8rem;}
+.tc_form { padding: 2.5rem 2rem;}
+.myform .group{ column-gap: 0;}
+.myform .group .span{ justify-self: flex-start; line-height: 1; height: auto;}
+.myform .group .span br{ display: none;}
+.n_fadongjixilie dt{ font-size: 1rem;}
+.n_fadongjixilie dd{ font-size: 1.125rem;}
+.n_fadongjixilie dd span{ font-size: 1.875rem;}
+.n_fadongjixilie dl{ height: 4rem;}
+.tc_form .tt{ margin-bottom: 1.5rem;}
+.tc_form form{ gap: 1rem;}
+.xilie_banner{ height: 16rem;}
+.xilie_banner p{ font-size: 1.25rem;}
+.n_huojianxilie .centerbox ul li h6{ font-size: 1.5rem;}
+/* .n_huojianxilie .n_subnav a{ width: 9.25rem;}
+.n_huojianxilie .n_subnav{ margin-bottom: 2.5rem;} */ 
+ .n_subnav{ margin-bottom: 2.5rem;}
+.n_licheng .swiper-button-prev, .n_licheng .swiper-button-next{ width: 3rem; height: 3rem;}
+.n_licheng .box .year span{ font-size: 4.5rem;}
+.n_licheng .box .year{ margin-bottom: 1.5rem;}
+
+.n_licheng .bd{ padding-bottom: 4rem;}  
+.n_licheng .swiper-button-prev { left: 50%;margin-left: -3.5rem;bottom: 0;top: auto !important;}
+.n_licheng .swiper-button-next {right: 50%;margin-right: -3.5rem;bottom: 0;top: auto !important;}
+.TimeBox .TimeContent p{ font-size: 1.375rem;}
+.TimeBox .TimeContent p:before{ top: 2.5rem;}
+.TimeBox .bg{width: calc(100% - 5rem);
+    height: calc(100% - 5rem);}
+video{ width: 100%;}
+.s_pro .txt .con{ height: 116px; margin-bottom: 3.625rem;}
+#n_join #list_slide dt h3 span:nth-child(2){ display: none;}
+#n_join #list_slide dd .content{ flex-direction: column-reverse; gap: 1rem;}
+#list_slide .content .left,#list_slide .content .right{ width: 100%; margin: 0; padding: 0  !important;}
+#list_slide .content .scrollbox{ height: auto; padding: 0;}
+#n_join #list_slide dd{ padding: 2rem;}
+#n_join #list_slide dt{ height: 5rem;}
+#n_join #list_slide dt h3{ grid-template-columns: 1fr;}
+.n_subnav a{ font-size: 1.0625rem;}
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

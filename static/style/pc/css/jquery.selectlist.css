@@ -1,0 +1,117 @@
+.select-wrapper{
+	font:14px;
+	width:240px;
+	height:34px;
+	position:relative;
+	cursor:pointer;
+	display:inline-block;
+	*
+	display:inline;
+	*
+	float:left;
+	*
+	margin-right:10px; 
+	border:1px solid #e3e3e3;
+}
+.select-wrapper.focus{
+	border:1px solid #94abc3;
+}
+.select-button{
+	cursor:pointer;
+	overflow:hidden;
+	text-align:left;
+	outline:none;
+	white-space:nowrap;
+	word-break:keep-all;
+	text-overflow:ellipsis;
+}
+.select-down{
+	position:absolute;
+	top:0 !important; 
+	right:12px;
+	height:100%;
+	width:12px; display: flex; align-items: center; justify-content: center;
+} 
+.select-down.on svg{ transform: rotate(180deg);}
+.disabled{
+	color:#cccccc;
+}
+.select-list{
+	z-index:2;
+	position:absolute;
+	left:0;
+	border-radius: 4px;
+	padding-top: 10px;
+}
+.select-list ul{
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	overflow-y:auto;
+	line-height:34px;
+	max-height:240px;
+	border: 1px solid #e4e7ed;
+	border-radius: 4px;
+	background-color: #fff;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+	box-sizing: border-box;
+}
+.select-list ul li{
+	width:auto;
+	height:34px;
+	padding-left:10px;
+	cursor:pointer;
+	overflow:hidden;
+	white-space:nowrap;
+	word-break:keep-all;
+	text-overflow:ellipsis;
+	color: #333;
+	font-size: 13px;
+}
+.select-list ul li.selected,
+.select-list ul li:hover{
+	background: #f5f7fa;
+}
+
+ 
+.select-button-disable{
+	color:#ccc;
+	width:238px;
+	height:34px;
+	border:1px solid #e3e3e3;
+	border-radius:3px;
+	cursor:pointer;
+	padding-left:10px;
+	overflow:hidden;
+	text-align:left;
+	outline:none;
+}
+.select-down-disable{
+	color:#ccc;
+	font-size:18px;
+	position:absolute;
+	top:0;
+	right:10px;
+	line-height:34px;
+}
+
+.select-wrapper{height: 100% !important;width: 100% !important;}
+.select-button{width: 100% !important;height: 100% !important;}
+.select-list{width: 100% !important;top: 100% !important;display: none;} 
+.select-wrapper{border: 0 !important;position: relative;z-index: 1;}
+.select-list ul li{ padding-left: 32px; z-index: 9; position: relative;} 
+.select-list ul{ position: relative; padding: 10px 0;}
+.select-list:before{
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 12px;
+    top: 6px;
+    left: 17px;
+    background: #fff;
+    border: 1px solid #e4e7ed;
+    transform: rotate(45deg);
+    z-index: 1;
+    }
+.select-list ul:after{ content: ""; display: block; position: absolute; left: 0; top: 0; width: 100%; height: 100%; border-radius: 4px; background: #fff; z-index: 2;}
