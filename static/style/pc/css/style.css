@@ -28,7 +28,7 @@
 }
 #logo{ flex-shrink:0; }
 #logo a{ display: flex; height: 100%; align-items: center;}
-#logo img{ height: 54px; transition: .5s; -webkit-transition: .5s; -moz-transition: .5s; -ms-transition: .5s; -o-transition: .5s; }
+#logo img{ height: 70px; transition: .5s; -webkit-transition: .5s; -moz-transition: .5s; -ms-transition: .5s; -o-transition: .5s; }
 #logo .img01{ display: none;}
 #logo .img02{ display: block;}
 #nav{ flex-grow: 1;  }
@@ -96,7 +96,7 @@ video{ background: #000;}
 /* .xg .menubtn span:after,
 .xg .menubtn span:before{ background: #333; } */
 #m_header .m{ position:relative; height:100%; display: flex; align-items: center;}
-#m_header #logo img{ height: 36px;}
+#m_header #logo img{ height: 50px;}
 .m_nav_list{/* flex-direction:column; *//* justify-content: flex-start; */width:100%;/* overflow: auto; */}
 .m_nav_list::-webkit-scrollbar {display:none}
 #m_nav .top_search{ display: flex; justify-content: center; margin-right: 0; margin-top: 1rem; margin-bottom: 1rem;}
@@ -1798,17 +1798,3 @@ top:0;  transition: .6s; -webkit-transition: .6s; opacity:0; visibility:hidden; 
     transform: rotate(360deg);
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
