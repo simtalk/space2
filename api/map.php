@@ -38,7 +38,7 @@
           for (var i = 0, marker; i < lnglats.length; i++) {
             var marker = new AMap.Marker({
                 position: lnglats[i],
-                icon:"https://www.spacecircling.com.cn/static/style/pc/images/map.png",
+                icon:"https://www.lookspace.cn/static/style/pc/images/map.png",
                 map: mapObj
             });
             marker.content = "<h5>" + markerArr[i].title +"</h5><p>电话：" + markerArr[i].tel +"</p>";
